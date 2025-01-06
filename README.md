@@ -1,84 +1,85 @@
 # Configure-Vim
-This is my custom .vimrc configuration file for enhancing the Vim editing experience. It includes useful plugins, convenient key mappings, and optimized settings.
 
-## 使用的插件
+This is my custom `.vimrc` configuration file for enhancing the Vim editing experience. It includes useful plugins, convenient key mappings, and optimized settings.
 
-這些插件由 [vim-plug](https://github.com/junegunn/vim-plug) 管理，以下為已安裝的插件：
+## Plugins Used
 
-- **[vim-easy-align](https://github.com/junegunn/vim-easy-align)**：簡化文字對齊操作（特別適合對齊程式碼與表格）。
-- **[nerdtree](https://github.com/scrooloose/nerdtree)**：檔案樹瀏覽器，方便導航與管理檔案。
-- **[vim-airline](https://github.com/vim-airline/vim-airline)**：增強狀態列的外觀，提供清晰且資訊豐富的界面。
-- **[vim-fugitive](https://github.com/tpope/vim-fugitive)**：在 Vim 中整合 Git，提供流暢的 Git 操作體驗。
-- **[onedark.vim](https://github.com/joshdick/onedark.vim)**：美觀的 "One Dark" 主題。
+These plugins are managed using [vim-plug](https://github.com/junegunn/vim-plug). The following plugins are installed:
 
----
-
-## 功能與快捷鍵
-
-### 一般設定
-- **行號顯示**：啟用絕對行號與相對行號。
-- **Tab 設定**：
-  - 將 Tab 寬度設為 4 個空格。
-  - 自動將 Tab 轉換為空格。
-- **自動縮排**：支援智慧與自動縮排。
-
-### One Dark 主題
-- 啟用 **One Dark** 主題，提供現代化的外觀。
-- 支援真彩色顯示（`set termguicolors`）。
-
-### 搜尋增強
-- **高亮搜尋**：搜尋時高亮顯示匹配的內容。
-- **智慧搜尋**：忽略大小寫，除非使用大寫字母。
-
-### 剪貼簿與滑鼠
-- 與系統剪貼簿共享，方便複製與貼上。
-- 啟用完整滑鼠支援。
+- **[vim-easy-align](https://github.com/junegunn/vim-easy-align)**: Simplifies text alignment (great for aligning code and tables).
+- **[nerdtree](https://github.com/scrooloose/nerdtree)**: A file tree browser for easy navigation and file management.
+- **[vim-airline](https://github.com/vim-airline/vim-airline)**: Enhances the status bar with a clean and information-rich interface.
+- **[vim-fugitive](https://github.com/tpope/vim-fugitive)**: Git integration for Vim, enabling seamless Git operations.
+- **[onedark.vim](https://github.com/joshdick/onedark.vim)**: A beautiful "One Dark" theme for Vim.
 
 ---
 
-### 快捷鍵 
-(前面是Leader我map成space，所以以下快捷鍵都是同時和space一起按，因此前面才有個空格）
+## Features and Key Mappings
 
-| 快捷鍵             | 模式        | 功能                                      |
+### General Settings
+- **Line Numbers**: Displays both absolute and relative line numbers.
+- **Tab Settings**:
+  - Sets the tab width to 4 spaces.
+  - Automatically converts tabs to spaces.
+- **Auto Indentation**: Supports smart and automatic indentation.
+
+### One Dark Theme
+- Enabled the **One Dark** theme for a modern look.
+- Supports true color display (`set termguicolors`).
+
+### Enhanced Search
+- **Highlight Search**: Highlights matching content during a search.
+- **Smart Search**: Ignores case unless uppercase letters are used.
+
+### Clipboard and Mouse
+- Shares the system clipboard for easy copy and paste.
+- Enables full mouse support.
+
+---
+
+### Key Mappings
+(Leader key is mapped to space, so all the following shortcuts should be pressed with the space key.)
+
+| Shortcut           | Mode        | Description                               |
 |--------------------|-------------|-------------------------------------------|
-| ` r`               | Normal      | 重新載入 `.vimrc` 配置檔案。              |
-| ` t`               | Normal      | 開啟/關閉 NERDTree 檔案樹。               |
-| ` k`               | Insert      | 退出插入模式（帶延遲保護）。              |
+| ` r`               | Normal      | Reloads the `.vimrc` configuration file.  |
+| ` t`               | Normal      | Toggles the NERDTree file tree.           |
+| ` k`               | Insert      | Exits insert mode (with delay protection).|
 
 ---
 
-## 插件安裝方式
+## Plugin Installation
 
-### Vim-Plug 安裝
-1. 執行以下指令安裝 vim-plug：
+### Install Vim-Plug
+1. Run the following command to install vim-plug:
 
    ```bash
    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
    ```
-2. 開啟 Vim 並執行以下指令來安裝所有插件：
+2. 	Open Vim and run the following command to install all plugins:
    ```vim
    :PlugInstall
-   ```
-## 插件使用
+  ```
+## Plugin Usage
 
-- **NERDTree**：
-  - 使用 ` t` 開啟或關閉檔案樹。
-  - 使用 `:NERDTreeFind` 高亮顯示當前檔案的位置。
+- **NERDTree**:
+  - Use ` t` to toggle the file tree.
+  - Use `:NERDTreeFind` to highlight the current file in the tree.
 
-- **vim-easy-align**：
-  - 在視覺模式中選擇文字，然後執行 `:EasyAlign`，選擇要對齊的符號即可。
+- **vim-easy-align**:
+  - Select text in visual mode, then run `:EasyAlign` and choose the character to align by.
 
-- **vim-fugitive**：
-  - 在 Vim 中直接執行 Git 命令，例如使用 `:G` 查看 Git 狀態。
-
----
-
-## 其他注意事項
-
-- **新窗口方向**：分割窗口（例如 `:split`）會默認顯示在 **下方**（`set splitbelow`）。
-- **終端整合**：建議使用 iTerm2 的內建分割視窗功能進行終端工作流。
+- **vim-fugitive**:
+  - Run Git commands directly in Vim, such as using `:G` to check the Git status.
 
 ---
 
-歡迎根據需求修改或擴展這份配置！😊
+## Additional Notes
+
+- **New Window Direction**: Split windows (e.g., `:split`) will default to showing **below** (`set splitbelow`).
+- **Terminal Integration**: It is recommended to use iTerm2's built-in split window feature for terminal workflows.
+
+---
+
+Feel free to modify or expand this configuration based on your needs! 😊
