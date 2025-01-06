@@ -1,8 +1,5 @@
 # Configure-Vim
 This is my custom .vimrc configuration file for enhancing the Vim editing experience. It includes useful plugins, convenient key mappings, and optimized settings.
-# 我的 Vim 配置
-
-這是我的自訂 `.vimrc` 配置檔案，用於提升 Vim 的編輯體驗。配置內容包含實用的插件、便捷的快捷鍵映射以及最佳化的設定。
 
 ## 使用的插件
 
