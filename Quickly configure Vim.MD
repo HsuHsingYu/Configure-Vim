@@ -48,7 +48,7 @@ vim ~/.vimrc
 ```bash
 vim --version
 ```
-•	如果顯示 +termguicolors，則表示支援。
+•	如果顯示 +termguicolors，則表示支援。 \
 •	如果顯示 -termguicolors，可以考慮升級 Vim：
 ```bash
 brew install vim
