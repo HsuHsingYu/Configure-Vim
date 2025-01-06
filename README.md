@@ -36,7 +36,7 @@ This is my custom .vimrc configuration file for enhancing the Vim editing experi
 
 ---
 
-### 快捷鍵
+### 快捷鍵 (前面是Leader我map成space，所以以下快捷鍵都是同時和space一起按，因此前面才有個空格）
 
 | 快捷鍵             | 模式        | 功能                                      |
 |--------------------|-------------|-------------------------------------------|
@@ -76,7 +76,6 @@ This is my custom .vimrc configuration file for enhancing the Vim editing experi
 ## 其他注意事項
 
 - **新窗口方向**：分割窗口（例如 `:split`）會默認顯示在 **下方**（`set splitbelow`）。
-- **快速儲存**：使用 `Ctrl-s` 快捷鍵比輸入 `:w` 更快捷。
 - **終端整合**：建議使用 iTerm2 的內建分割視窗功能進行終端工作流。
 
 ---
