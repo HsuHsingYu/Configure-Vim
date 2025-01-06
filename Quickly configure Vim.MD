@@ -28,7 +28,7 @@ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 ### step4. 安裝插件
-打開 Vim
+打開 Vim：
 ```bash
 vim ~/.vimrc
 ```
@@ -55,4 +55,5 @@ brew install vim
 ```
 完成以上步驟後，你的 Vim 應該可以正常運行並啟用所有配置！🎉
 ![picture](https://github.com/HsuHsingYu/Configure-Vim/blob/main/figure.png)
+其實沒有多漂亮，但至少比原本陽春到不行的空白頁面好多了😂
 
