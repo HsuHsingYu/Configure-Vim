@@ -1,6 +1,6 @@
 ## 直接把我的vim配置搬去用
 
-### step1. 確定有vim (mac 內建，但如果你怕你其實沒有可以再確認）
+### step1. 確定有 Vim （mac 內建，但可以確認一下）
 ```bash
 vim --version
 ```
