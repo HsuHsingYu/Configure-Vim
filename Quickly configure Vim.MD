@@ -46,7 +46,7 @@ vim ~/.vimrc
 ### step6. 檢查 Vim 是否支援插件功能
 確保你的 Vim 版本支援插件的高級功能，例如 termguicolors。執行以下命令檢查：
 ```bash
-vim --version
+vim --version | grep termguicolors
 ```
 •	如果顯示 +termguicolors，則表示支援。 \
 •	如果顯示 -termguicolors，可以考慮升級 Vim：
