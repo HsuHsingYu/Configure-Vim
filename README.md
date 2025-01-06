@@ -36,7 +36,8 @@ This is my custom .vimrc configuration file for enhancing the Vim editing experi
 
 ---
 
-### 快捷鍵 (前面是Leader我map成space，所以以下快捷鍵都是同時和space一起按，因此前面才有個空格）
+### 快捷鍵 
+(前面是Leader我map成space，所以以下快捷鍵都是同時和space一起按，因此前面才有個空格）
 
 | 快捷鍵             | 模式        | 功能                                      |
 |--------------------|-------------|-------------------------------------------|
