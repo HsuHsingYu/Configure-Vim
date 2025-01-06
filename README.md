@@ -63,7 +63,7 @@ This is my custom .vimrc configuration file for enhancing the Vim editing experi
 ## 插件使用
 
 - **NERDTree**：
-  - 使用 `\t` 開啟或關閉檔案樹。
+  - 使用 ` t` 開啟或關閉檔案樹。
   - 使用 `:NERDTreeFind` 高亮顯示當前檔案的位置。
 
 - **vim-easy-align**：
