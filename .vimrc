@@ -35,7 +35,6 @@ set smartcase             " 智慧搜尋（有大寫時區分大小寫）
 let mapleader = " "
 
 " 快捷鍵
-nnoremap <C-s> :w<CR>     " Ctrl+s 快速儲存
 nnoremap <Leader>r :source ~/.vimrc<CR> " 快捷鍵：重新加載 ~/.vimrc 配置
 nnoremap <Leader>t :NERDTreeToggle<CR>
 
