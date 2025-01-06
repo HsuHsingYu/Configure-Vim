@@ -16,7 +16,7 @@ This is my custom .vimrc configuration file for enhancing the Vim editing experi
 ## 功能與快捷鍵
 
 ### 一般設定
-- **行號顯示**：啟用絕對行號與相對行號，方便導航。
+- **行號顯示**：啟用絕對行號與相對行號。
 - **Tab 設定**：
   - 將 Tab 寬度設為 4 個空格。
   - 自動將 Tab 轉換為空格。
