@@ -54,5 +54,5 @@ vim --version
 brew install vim
 ```
 完成以上步驟後，你的 Vim 應該可以正常運行並啟用所有配置！🎉
-
+![picture](https://github.com/HsuHsingYu/Configure-Vim/blob/main/figure.png)
 
