@@ -2,6 +2,8 @@
 
 This is my custom `.vimrc` configuration file for enhancing the Vim editing experience. It includes useful plugins, convenient key mappings, and optimized settings.
 
+![picture](https://github.com/HsuHsingYu/Configure-Vim/blob/main/figure.png)
+
 ## Plugins Used
 
 These plugins are managed using [vim-plug](https://github.com/junegunn/vim-plug). The following plugins are installed:
@@ -83,3 +85,5 @@ These plugins are managed using [vim-plug](https://github.com/junegunn/vim-plug)
 ---
 
 Feel free to modify or expand this configuration based on your needs! 😊
+
+
